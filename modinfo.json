@@ -1,0 +1,24 @@
+ {
+   "context": "client",
+   "identifier": "com.pa.ferretmaster.metal-in-selection",
+   "display_name": "Metal In Selection",
+   "description": "A mod that displays the metal in your current selection",
+   "author": "Ferretmaster",
+   "version": "1.00",
+   "build": "116982",
+   "date": "2023-06-22",
+   "signature": "not yet implemented",
+
+   "forum": "",
+   "priority": 100,
+   "icon": "https://github.com/ferret-Master/Army-Utilities/blob/Release/ArmyUtilities.png?raw=true",
+    "scenes": {
+        "live_game": [
+            "coui://ui/mods/metalInSelection/live_game/metalInSelection.js"
+        ],
+	"live_game_selection": [
+            "coui://ui/mods/metalInSelection/live_game/selectionHandler.js"
+        ]  
+    },
+   "category": ["ui","titans", "in-game"]
+ }
