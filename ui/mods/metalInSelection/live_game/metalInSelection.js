@@ -17,7 +17,7 @@ var selectionMetalChecker = ko.computed(function(){
       var unitMetal = model.unitSpecs[unitType].cost;
       var metalAmount = unitMetal * unitAmount;
 
-    totalMetal += metalAmount;
+      totalMetal += metalAmount;
   
     }
     api.Panel.message(api.panels.selection.id, 'totalMetalInSelection',totalMetal)
