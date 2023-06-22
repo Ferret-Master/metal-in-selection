@@ -8,10 +8,9 @@
    "build": "116982",
    "date": "2023-06-22",
    "signature": "not yet implemented",
-
-   "forum": "",
+   "forum": "https://steamcommunity.com/app/386070/discussions/0/3809530424063743945/",
    "priority": 100,
-   "icon": "https://github.com/ferret-Master/Army-Utilities/blob/Release/ArmyUtilities.png?raw=true",
+   "icon": "https://github.com/Ferret-Master/metal-in-selection/blob/main/metalSelectionIcon.PNG?raw=true",
     "scenes": {
         "live_game": [
             "coui://ui/mods/metalInSelection/live_game/metalInSelection.js"
